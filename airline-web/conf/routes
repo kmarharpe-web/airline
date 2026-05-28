@@ -275,3 +275,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 #front-end fake links...use redirect instead of telling them not found
 GET /nav-*any       controllers.Application.redirect(path : String = "/", any)
 
+POST   /api/simulation/advance   controllers.Application.advanceNextWeek
